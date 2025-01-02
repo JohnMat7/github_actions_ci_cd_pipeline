@@ -6,7 +6,7 @@ app = FastAPI()
 
 @app.get("/welcome")
 def welcome():
-    return {"message": "Hi John Welcome Man!  (messaged added and added again)"}
+    return {"message": "Hi John Welcome Man(messaged added and added again)"}
 
 
 
